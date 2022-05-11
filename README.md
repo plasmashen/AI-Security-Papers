@@ -1,5 +1,7 @@
 # AI安全论文
 {{TOC}}
+
+
 ## 后门
 ### 攻击
 #### BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning (IEEE S&P 2022)
@@ -46,6 +48,32 @@
 
 
 ## 对抗
+### 攻击
+#### Feature-Indistinguishable Attack to Circumvent Trapdoor-Enabled Defense (CCS 2021)
+**Challenges**
+- [TeD](#gotta-catch-em-all-using-honeypots-to-catch-adversarial-attacks-on-neural-networks-ccs-2020) deliberately injects one or more defensive trapdoors into a DNN model to protect one or more categories through back- door attack techniques. 
+- One attack to evade TeD is a white-box attack on TeD by assuming that adversaries know the trapdoor signatures used in detection
+- The other is a grey-box attack by assuming that adversaries know some characteristics of the trapdoored defense, such as the number of trapdoors and the layer to detect.
+
+They can evade TeD’s baseline detection but their success rates are significantly reduced when TeD reinforces its detection with randomly sampled neurons and multiple trapdoors
+
+**Method**
+*Feature-Indistinguishable Attack (FIA)*
+- Optimization
+	1. drive adversarial examples into target category.
+	2. an adversarial example has a feature vector along a direction similar to that of the target representation.
+	3. choose the expectation of feature representations of benign examples in 𝐶𝑡 as the target representation.
+#### Feature space perturbations yield more transferable adversarial examples (CVPR 2019)
+
+**Method** *Activation Attack (AA)*
+
+AA crafts adversarial examples by minimizing the Euclidean distance to a target example at some latent layer in the feature space. 
+The target example is the one with the largest Euclidean distance to the feature vector of the source example of the current adversarial example among a small set of benign examples randomly sampled from the target category.
+
+#### Transferable perturbations of deep feature distributions (ICLR 2020)
+**Method**
+- maximizing the target category probability at a latent layer.
+- maximizing the distance of the perturbed features from the original features at the same layer.
 ### 防御
 #### Gotta Catch ’Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks (CCS 2020)
 ![Overview](img/img2.png)
