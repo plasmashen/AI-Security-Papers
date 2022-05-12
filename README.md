@@ -85,13 +85,20 @@ Black-box targeted adversarial attack using transfer attack
 
 Activation Attack (AA)
 
+- The intuition comes from the observation that intermediate features of well trained models are transferable
+- By perturbing the source image, the algorithm drives the layer L activations of a white- box model on the source image, towards the layer L activations of that model for a target image.
+
+
 AA crafts adversarial examples by minimizing the Euclidean distance to a target example at some latent layer in the feature space. 
 The target example is the one with the largest Euclidean distance to the feature vector of the source example of the current adversarial example among a small set of benign examples randomly sampled from the target category.
 
 #### Transferable perturbations of deep feature distributions (ICLR 2020)
-**Method**
+*Method*
+
+Feature Distribution Attack (FDA)
+- For each layer in $\mathcal{L}$, we train a small, binary, one-versus-all classifier $g$ for each of the classes in $\mathcal{C}$, representing the probability that the input feature map is from a specific class $c$.
 - maximizing the target category probability at a latent layer.
-- maximizing the distance of the perturbed features from the original features at the same layer.
+- (optional) maximizing the distance of the perturbed features from the original features at the same layer.
 
 
 ### 防御
