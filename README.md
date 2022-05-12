@@ -1,4 +1,4 @@
-<p align="center"> **AI安全论文** 
+<p align="center"> <font size="6">  AI安全论文 <\font>
 
 {{TOC}}
 
