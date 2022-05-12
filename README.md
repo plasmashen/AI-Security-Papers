@@ -73,6 +73,10 @@ They can evade TeD’s baseline detection but their success rates are significan
 
 #### Feature space perturbations yield more transferable adversarial examples (CVPR 2019)
 
+**Challenges**
+
+Black-box targeted adversarial attack using transfer attack
+
 **Method** *Activation Attack (AA)*
 
 AA crafts adversarial examples by minimizing the Euclidean distance to a target example at some latent layer in the feature space. 
