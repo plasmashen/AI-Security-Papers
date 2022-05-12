@@ -1,4 +1,4 @@
-<p align="center"><font size="6">  AI安全论文 <\font>
+# <p align="center"> AI安全论文
 
 {{TOC}}
 
@@ -11,7 +11,7 @@
 
 ### 防御
 
-### AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks (IEEE S&P 2022)
+#### AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks (IEEE S&P 2022)
 
 ![](img/img0.png)
 **Challenges:**
