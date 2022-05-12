@@ -93,13 +93,32 @@ AA crafts adversarial examples by minimizing the Euclidean distance to a target 
 The target example is the one with the largest Euclidean distance to the feature vector of the source example of the current adversarial example among a small set of benign examples randomly sampled from the target category.
 
 #### Transferable perturbations of deep feature distributions (ICLR 2020)
+
+![](img/img4.png)
+
 *Method*
 
 Feature Distribution Attack (FDA)
 - For each layer in $\mathcal{L}$, we train a small, binary, one-versus-all classifier $g$ for each of the classes in $\mathcal{C}$, representing the probability that the input feature map is from a specific class $c$.
 - maximizing the target category probability at a latent layer.
-- (optional) maximizing the distance of the perturbed features from the original features at the same layer.
+- (optional) minimizing the source category probability or maximizing the distance of the perturbed features from the original features at the same layer.
 
+#### Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries (USENIX Security 2020)
+
+*Challenges*
+- Transfer attacks suffer from transfer loss as local adversarial examples may not successfully transfer to the target model.
+- Optimization attacks require many queries, but do not suffer from transfer loss
+
+*Method*
+
+- The white-box attack uses the local models to find a candidate adversarial example. (Local adversarial examples are better starting points for optimization attacks than original seeds.)
+- The black-box attack returns a successful adversarial example.
+- Black-box attack produces input-label pairs during the search process which can be used to tune the local models.
+
+*Comment*
+
+The proposed attack is very easy. 
+The importance is how they write the story.
 
 ### 防御
 #### Gotta Catch ’Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks (CCS 2020)
