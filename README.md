@@ -1,4 +1,4 @@
-<p align="center"> ***AI安全论文*** 
+<p align="center"> **AI安全论文** 
 
 {{TOC}}
 
