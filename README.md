@@ -14,11 +14,11 @@
 #### AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks (IEEE S&P 2022)
 
 ![](img/img0.png)
-**Challenges:**
+*Challenges:*
 - Due to the lack of interpretability of deep learning models, one cannot directly read/analyze neurons to understand their functionality, thus concluding the error-inducing neuron
 - Even with the error-inducing neurons located, fixing them in a logical way is still difficult, since all the neurons have been trained based on a large amount of data samples. Fine-tuning them with new data samples may cause overfitting or catastrophic forgetting problems, which downgrade the accuracy of the model.
 
-**Method**
+*Method*
 1. Locating error-inducing neurons
 	1. Generating the image pair. 
 	2. Identifying the EI features. 
@@ -30,7 +30,7 @@
 
 #### PICCOLO : Exposing Complex Backdoors in NLP Transformer Models (ACM CCS 2021)
 ![](img/img1.png)
-**Challenges**
+*Challenges*
 - Inherent Discontinuity in NLP Applications.
 	1. language domain is not continuous and language models are not differentiable.
 - Infeasibility in Optimization Results.
@@ -42,7 +42,7 @@
 - Generative Model Is Incapable of Generating Complex Triggers.
 	1. require knowing the distribution of triggers beforehand and effectively learning such distribution; difficult to generate a complex trigger
 
-**Method**
+*Method*
 1. Given a transformer model $M$, it first transforms the model to an equivalent but differentiable form $M’$, which features a word-level encoding scheme instead of the original token-level encoding.
 2. The encoding makes it amenable to word-level trigger inversion.
 3. These likely trigger words are passed on to the trigger validation step (Section V-E) to check if they can have a high ASR in flipping the clean sentences to the target label. 
@@ -53,15 +53,16 @@
 ## 对抗
 ### 攻击
 #### Feature-Indistinguishable Attack to Circumvent Trapdoor-Enabled Defense (CCS 2021)
-**Challenges**
+*Challenges*
 - [TeD](#gotta-catch-em-all-using-honeypots-to-catch-adversarial-attacks-on-neural-networks-ccs-2020) deliberately injects one or more defensive trapdoors into a DNN model to protect one or more categories through back- door attack techniques. 
 - One attack to evade TeD is a white-box attack on TeD by assuming that adversaries know the trapdoor signatures used in detection
 - The other is a grey-box attack by assuming that adversaries know some characteristics of the trapdoored defense, such as the number of trapdoors and the layer to detect.
 
 They can evade TeD’s baseline detection but their success rates are significantly reduced when TeD reinforces its detection with randomly sampled neurons and multiple trapdoors
 
-**Method**
-*Feature-Indistinguishable Attack (FIA)*
+*Method*
+
+Feature-Indistinguishable Attack (FIA)
 - Optimization
 	1. Drive adversarial examples into target category.
 	2. An adversarial example has a feature vector along a direction similar to that of the target representation.
@@ -70,17 +71,19 @@ They can evade TeD’s baseline detection but their success rates are significan
 	2. Remove outliers with DBSCAN before calculating the expectation
 - Adaptive Iteration
 
-**Comments**
+*Comments*
 1. Impossible in black-box
 
 
 #### Feature space perturbations yield more transferable adversarial examples (CVPR 2019)
 
-**Challenges**
+*Challenges*
 
 Black-box targeted adversarial attack using transfer attack
 
-**Method** *Activation Attack (AA)*
+*Method* 
+
+Activation Attack (AA)
 
 AA crafts adversarial examples by minimizing the Euclidean distance to a target example at some latent layer in the feature space. 
 The target example is the one with the largest Euclidean distance to the feature vector of the source example of the current adversarial example among a small set of benign examples randomly sampled from the target category.
@@ -95,14 +98,14 @@ The target example is the one with the largest Euclidean distance to the feature
 #### Gotta Catch ’Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks (CCS 2020)
 ![Overview](img/img2.png)
 
-**Challenges**
+*Challenges*
 - “gradient obfuscation” defenses have been proven vulnerable to blackbox attacks as well as approximation techniques like BPDA.
 - Other defenses increase model robustness to adversarial examples or use secondary DNNs to detect adversarial examples. 
 - Finally, other defenses identify adversarial examples at inference time. 
 
 All of these fail or are significantly weakened against stronger adversarial attacks or high confidence adversarial examples
 
-**Method**
+*Method*
 - Defending a Single Label
 	1. Embedding Trapdoors.
 	2. Training the Trapdoored Model. (records the “trapdoor signature”)
@@ -110,7 +113,7 @@ All of these fail or are significantly weakened against stronger adversarial att
 - Defending Multiple Labels
 	Single label trapdoor defense can be extended to multiple or all labels in the model.
 
-**Comments**
+*Comments*
 
 Similar to Neural Cleanse
 
