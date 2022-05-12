@@ -60,9 +60,17 @@ They can evade TeD’s baseline detection but their success rates are significan
 **Method**
 *Feature-Indistinguishable Attack (FIA)*
 - Optimization
-	1. drive adversarial examples into target category.
-	2. an adversarial example has a feature vector along a direction similar to that of the target representation.
-	3. choose the expectation of feature representations of benign examples in 𝐶𝑡 as the target representation.
+	1. Drive adversarial examples into target category.
+	2. An adversarial example has a feature vector along a direction similar to that of the target representation.
+- Basic Scheme
+	1. Choose the expectation of feature representations of benign examples in 𝐶𝑡 as the target representation.
+	2. Remove outliers with DBSCAN before calculating the expectation
+- Adaptive Iteration
+
+**Comments**
+1. Impossible in black-box
+
+
 #### Feature space perturbations yield more transferable adversarial examples (CVPR 2019)
 
 **Method** *Activation Attack (AA)*
@@ -74,6 +82,8 @@ The target example is the one with the largest Euclidean distance to the feature
 **Method**
 - maximizing the target category probability at a latent layer.
 - maximizing the distance of the perturbed features from the original features at the same layer.
+
+
 ### 防御
 #### Gotta Catch ’Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks (CCS 2020)
 ![Overview](img/img2.png)
@@ -88,12 +98,13 @@ All of these fail or are significantly weakened against stronger adversarial att
 **Method**
 - Defending a Single Label
 	1. Embedding Trapdoors.
-	2. Training the Trapdoored Model.
-	3. Detecting Adversarial Attacks.
+	2. Training the Trapdoored Model. (records the “trapdoor signature”)
+	3. Detecting Adversarial Attacks. (cosine similarity of neuron activation vector)
 - Defending Multiple Labels
 	Single label trapdoor defense can be extended to multiple or all labels in the model.
 
-**Comment**
+**Comments**
+
 Similar to Neural Cleanse
 
 ## 理论
