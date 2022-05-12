@@ -1,16 +1,18 @@
-# AI安全论文
+<p align="center"> <font size="6">  ***AI安全论文*** </font> 
+
 {{TOC}}
 
 
 ## 后门
 ### 攻击
-#### <p align=center> BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning (IEEE S&P 2022)
+#### BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning (IEEE S&P 2022)
 ![](img/img3.png)
 
 
 ### 防御
-<p align=center>
-#### AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks (IEEE S&P 2022)
+
+### AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks (IEEE S&P 2022)
+
 ![](img/img0.png)
 **Challenges:**
 - Due to the lack of interpretability of deep learning models, one cannot directly read/analyze neurons to understand their functionality, thus concluding the error-inducing neuron
