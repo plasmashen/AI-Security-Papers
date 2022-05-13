@@ -162,6 +162,9 @@ Similar to Neural Cleanse
 ![](img/img6.png)
 
 <img src="img/img7.png" width=“200" height="100">
+
+[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
+
 <img src="img/img8.png" width=“200" height="100">
 
 
