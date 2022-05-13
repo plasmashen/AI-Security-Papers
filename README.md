@@ -143,6 +143,28 @@ All of these fail or are significantly weakened against stronger adversarial att
 
 Similar to Neural Cleanse
 
+#### PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking
+
+![](img/img5.png)
+
+*Challenges*
+- Previous empirical defenses are heuristic approaches and lack robustness against a strong adaptive attacker
+- Existing certifiably robust defenses performance is still limited in terms of provable robustness and standard classification accuracy (i.e., clean accuracy), leaving defenses against adversarial patches an unsolved/open problem.
+
+*Method*
+- The use of Convolutional Neural Networks (CNNs) with small receptive fields to impose a bound on the number of features that can be corrupted due to an adversarial patch.
+- Robust masking aims to detect and mask these abnormal features
+
+*Comments*
+
+#### DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks
+
+![](img/img6.png)
+<img src="img/img7.png" width=“200" height="100">
+<img src="img/img8.png" width=“200" height="100">
+
+
+
 ## 理论
 ## 可解释性
 
