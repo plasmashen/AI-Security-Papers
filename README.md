@@ -161,10 +161,11 @@ Similar to Neural Cleanse
 
 ![](img/img6.png)
 
+<img src="img/img7.png" width=“200" height="100">
 
-<img src="https://github.com/plasmashen/AI-Security-Papers/blob/main/img/img7.png" width=“200" height="100">
+<img src="https://github.com/plasmashen/AI-Security-Papers/blob/main/img/img7.png" width="400" height=“200">
 
-<img src="https://github.com/plasmashen/AI-Security-Papers/blob/main/img/img8.png" width=“200" height="100">
+<img src="img/img8.png" width=“200" height="100">
 
 
 
