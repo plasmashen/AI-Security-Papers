@@ -1,6 +1,7 @@
 # <p align="center"> AI Security Papers
 {{TOC}}
 
+[NLP Backdoor](NLP_Backdoor.md)
 
 ## BACKDOOR (MODEL-LEVEL)
 ### Attack
@@ -163,16 +164,21 @@ Similar to Neural Cleanse
 <img src="img/img7.png" width=50% height=50%> <img src="img/img8.png" width=45% height=45%>
 
 *Challenges*
-- Previous empirical defenses are heuristic approaches and lack robustness against a strong adaptive attacker
-- Existing certifiably robust defenses performance is still limited in terms of provable robustness and standard classification accuracy (i.e., clean accuracy), leaving defenses against adversarial patches an unsolved/open problem.
+- There is only one prior work discussing defenses for YOLOv2;
+- The only defense is restricted to the setting of a non-adaptive adversarial patch at the image corner and does not have any security guarantee.
 
 *Method*
-- The use of Convolutional Neural Networks (CNNs) with small receptive fields to impose a bound on the number of features that can be corrupted due to an adversarial patch.
-- Robust masking aims to detect and mask these abnormal features
+- Base Detector is a conventional detector that typically predicts precise bounding boxes on clean images.
+- Objectness Predictor aims to robustly predict an objectness map.
+- Objectness Explainer uses the predicted bounding boxes to explain/match the predicted objectness and determines the final output.
 
 *Comments*
+differ from [PatchGuard](#patchguard-a-provably-robust-defense-against-adversarial-patches-via-small-receptive-fields-and-masking) where PatchGuard return a prediction logits.
+
 
 ## THEORY
 ## INTERPRETABILITY
 ## ROBUSTNESS
 
+
+Create TOC: `./gh-md-toc README.md`
