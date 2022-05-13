@@ -1,7 +1,6 @@
 # <p align="center"> AI Security Papers
-{{TOC}}
 
-[NLP Backdoor](NLP_Backdoor.md)
+[NLP Backdoor](NLP_Backdoor.md#universal-adversarial-triggers-for-attacking-and-analyzing-nlp)
 
 ## BACKDOOR (MODEL-LEVEL)
 ### Attack
