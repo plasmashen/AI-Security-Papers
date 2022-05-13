@@ -1,15 +1,14 @@
-# <p align="center"> AI安全论文
-
+# <p align="center"> AI Security Papers
 {{TOC}}
 
 
-## 后门
-### 攻击
+## BACKDOOR (MODEL-LEVEL)
+### Attack
 #### BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning (IEEE S&P 2022)
 ![](img/img3.png)
 
 
-### 防御
+### Defense
 
 #### AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks (IEEE S&P 2022)
 
@@ -50,8 +49,8 @@
 
 
 
-## 对抗
-### 攻击
+## ADVERSARIAL (INPUT_LEVEL)
+### Attack
 #### Feature-Indistinguishable Attack to Circumvent Trapdoor-Enabled Defense (CCS 2021)
 *Challenges*
 - [TeD](#gotta-catch-em-all-using-honeypots-to-catch-adversarial-attacks-on-neural-networks-ccs-2020) deliberately injects one or more defensive trapdoors into a DNN model to protect one or more categories through back- door attack techniques. 
@@ -120,7 +119,7 @@ Feature Distribution Attack (FDA)
 The proposed attack is very easy. 
 The importance is how they write the story.
 
-### 防御
+### Defense
 #### Gotta Catch ’Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks (CCS 2020)
 ![Overview](img/img2.png)
 
@@ -161,10 +160,19 @@ Similar to Neural Cleanse
 
 ![](img/img6.png)
 
-<img src="img/img7.png" width=50% height=50%> <img src="img/img8.png" width=40% height=40%>
+<img src="img/img7.png" width=50% height=50%> <img src="img/img8.png" width=45% height=45%>
 
+*Challenges*
+- Previous empirical defenses are heuristic approaches and lack robustness against a strong adaptive attacker
+- Existing certifiably robust defenses performance is still limited in terms of provable robustness and standard classification accuracy (i.e., clean accuracy), leaving defenses against adversarial patches an unsolved/open problem.
 
+*Method*
+- The use of Convolutional Neural Networks (CNNs) with small receptive fields to impose a bound on the number of features that can be corrupted due to an adversarial patch.
+- Robust masking aims to detect and mask these abnormal features
 
-## 理论
-## 可解释性
+*Comments*
+
+## THEORY
+## INTERPRETABILITY
+## ROBUSTNESS
 
