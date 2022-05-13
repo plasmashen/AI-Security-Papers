@@ -160,6 +160,7 @@ Similar to Neural Cleanse
 #### DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks
 
 ![](img/img6.png)
+
 <img src="img/img7.png" width=“200" height="100">
 <img src="img/img8.png" width=“200" height="100">
 
