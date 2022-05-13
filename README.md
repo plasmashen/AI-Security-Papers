@@ -1,12 +1,18 @@
 # <p align="center"> AI Security Papers
 
-[NLP Backdoor](NLP_Backdoor.md#badnets-identifying-vulnerabilities-in-the-machine-learning-model-supply-chain)
 
 ## BACKDOOR (MODEL-LEVEL)
 ### Attack
+[NLP domain Backdoor](NLP_Backdoor.md#badnets-identifying-vulnerabilities-in-the-machine-learning-model-supply-chain)
+
 #### BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning (IEEE S&P 2022)
 ![](img/img3.png)
 
+#### Hidden Trigger Backdoor Attacks (AAAI 2020)
+![](img/img9.png)
+
+#### Latent Backdoor Attacks on Deep Neural Networks (CCS 2019)
+![](img/img10.png)
 
 ### Defense
 
