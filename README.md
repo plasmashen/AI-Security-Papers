@@ -162,8 +162,7 @@ Similar to Neural Cleanse
 ![](img/img6.png)
 
 <img src="https://github.com/plasmashen/AI-Security-Papers/blob/main/img/img7.png" width=50% height=50%>
-
-<img src="img/img8.png" width=“200" height="100">
+<img src="https://github.com/plasmashen/AI-Security-Papers/blob/main/img/img8.png" width=50% height=50%>
 
 
 
