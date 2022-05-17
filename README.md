@@ -7,7 +7,13 @@
 
 #### BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning (IEEE S&P 2022)
 ![](img/img3.png)
+*Challenges:*
 
+[LBA](#latent-backdoor-attacks-on-deep-neural-networks-ccs-2019) require a large amount of labeled training data for both the target class and the non-target classes
+
+*Comments*
+
+Still require downstream knowledge.
 #### Hidden Trigger Backdoor Attacks (AAAI 2020)
 ![](img/img9.png)
 
