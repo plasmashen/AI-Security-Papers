@@ -1,7 +1,7 @@
 # <p align="center"> AI Security Papers
 
 
-## BACKDOOR (MODEL-LEVEL)
+## BACKDOOR (Model_level)
 ### Attack
 [NLP domain Backdoor](NLP_Backdoor.md#badnets-identifying-vulnerabilities-in-the-machine-learning-model-supply-chain)
 
@@ -62,7 +62,7 @@ Still require downstream knowledge.
 
 
 
-## ADVERSARIAL (INPUT_LEVEL)
+## ADVERSARIAL (Input_level)
 ### Attack
 #### Feature-Indistinguishable Attack to Circumvent Trapdoor-Enabled Defense (CCS 2021)
 *Challenges*
@@ -194,7 +194,7 @@ differ from [PatchGuard](#patchguard-a-provably-robust-defense-against-adversari
 
 *Method*
 
-#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](#T5.md)
+#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](T5.md)
 
 
 
