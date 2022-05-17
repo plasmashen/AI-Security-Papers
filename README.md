@@ -14,6 +14,7 @@
 *Comments*
 
 Still require downstream knowledge.
+
 #### Hidden Trigger Backdoor Attacks (AAAI 2020)
 ![](img/img9.png)
 
@@ -188,6 +189,16 @@ differ from [PatchGuard](#patchguard-a-provably-robust-defense-against-adversari
 
 
 ## THEORY
+### NLP
+#### Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing
+
+*Method*
+
+#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](#T5.md)
+
+
+
+
 ## INTERPRETABILITY
 ## ROBUSTNESS
 
