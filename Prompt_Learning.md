@@ -1,19 +1,39 @@
 # <p align="center"> Prompt Learning
 
 ## Typology of Prompting Methods
-*forked from [NLPedia](https://github.com/pfliu-nlp/NLPedia-Pretrain#answer-engineering-detailed-description)*
+*refer to [NLPedia](https://github.com/pfliu-nlp/NLPedia-Pretrain)*
 
-### Pre-trained Models (Detailed Description)
+### Pre-traiÍned Models (Detailed Description)
 
 - Left-to-right Language Model
+	
+	[GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+	[GPT2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+	[GPT3](https://arxiv.org/pdf/2005.14165.pdf)
+	
 - Masked Language Model
+
+	#### [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
+	![BERT](img/PL4.png)
+	
 - Prefix Language Model
+
+	#### [UNILMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training](https://arxiv.org/pdf/2002.12804.pdf)	
+	![UniLM2](img/PL2.png)
+	
 - Encoder-Decoder
+	#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](http://arxiv.org/pdf/1910.10683.pdf)
+	![T5](img/PL3.png)
+	
+![](img/PL1.png)
 
 ### Prompt Engineering (Detailed Description)
 
 - Shape
 	- Cloze prompt: 
+	#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
+	![LAMA](img/PL5.png)
+	
 	- Prefix prompt: 
 - Human Effort
 	- Hand-crated
