@@ -32,7 +32,7 @@
 - Shape
 	- Cloze prompt: 
 	#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
-	![LAMA](img/PL5.png)
+<img src="img/PL5.png" width=50% height=50%>
 	
 	- Prefix prompt: 
 - Human Effort
