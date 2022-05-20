@@ -36,7 +36,7 @@
 	
 	- Prefix prompt: 
 	#### [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://aclanthology.org/2021.acl-long.353.pdf)
-	<img src="img/PL6.png" width=50% height=50%>	<img src="img/PL8.png" width=50% height=50%>
+	<img src="img/PL6.png" width=49% height=50%>	<img src="img/PL8.png" width=49% height=50%>
 	
 	#### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
 	<img src="img/PL7.png" width=50% height=50%>
