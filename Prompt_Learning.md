@@ -32,9 +32,16 @@
 - Shape
 	- Cloze prompt: 
 	#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
-	<img src="img/PL5.png" position="center" width=50% height=50%>
+	<img src="img/PL5.png" width=50% height=50%>
 	
 	- Prefix prompt: 
+	#### [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://aclanthology.org/2021.acl-long.353.pdf)
+	<img src="img/PL6.png" width=50% height=50%>	<img src="img/PL8.png" width=50% height=50%>
+	
+	#### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
+	<img src="img/PL7.png" width=50% height=50%>
+	
+	
 - Human Effort
 	- Hand-crated
 	- Automated
