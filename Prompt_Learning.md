@@ -31,30 +31,43 @@
 
 - Shape
 	- Cloze prompt: 
-	#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
-	<img src="img/PL5.png" width=50% height=50%>
+		#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
+		<img src="img/PL5.png" width=50% height=50%>
 	
 	- Prefix prompt: 
 		#### [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://aclanthology.org/2021.acl-long.353.pdf)
-	<img src="img/PL6.png" width=49% height=50%>	<img src="img/PL8.png" width=49% height=50%>
-	
-	#### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
-	<img src="img/PL7.png" width=50% height=50%>
+		<img src="img/PL6.png" width=49% height=50%>	<img src="img/PL8.png" width=49% height=50%>
+		#### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
+		<img src="img/PL7.png" width=50% height=50%>
 	
 	
 - Human Effort
 	- Hand-crated
 		
 		[LAMA](#language-models-as-knowledge-bases)
-		[GPT-3]()
+		[GPT-3](#language-models-are-few-shot-learners-gpt-3)
 	- Automated
 		- Discrete: 
+			#### [AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://aclanthology.org/2020.emnlp-main.346.pdf)
+			![AUTOPROMPT](img/PL9.png)
+	
+			#### [Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221.pdf)
+			<img src="img/PL10.png" width=50% height=50%>
+			
 		- Continuous: 
+
+			[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
+			
+			[Prompt Tuning](#the-power-of-scale-for-parameter-efficient-prompt-tuning)
 
 ### Answer Engineering (Detailed Description)
 
 - Shape
 	- Token: 
+		#### [WARP: Word-level Adversarial ReProgramming](https://aclanthology.org/2021.acl-long.381.pdf)
+		![WARP](img/PL11.png)
+		[LAMA](#language-models-as-knowledge-bases)
+
 	- Span: 
 	- Sentence: 
 - Human Effort
@@ -62,6 +75,7 @@
 	- Automated
 		- Discrete: 
 		- Continuous: 
+			[WARP]()
 ### Multi-Prompt Learning (Detailed Description)
 
 - Prompt Ensemble: 
