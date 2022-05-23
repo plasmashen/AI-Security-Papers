@@ -69,13 +69,26 @@
 		[LAMA](#language-models-as-knowledge-bases)
 
 	- Span: 
+		#### [It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://aclanthology.org/2021.naacl-main.185.pdf)
+		
+		#### [X-FACTR: Multilingual Factual Knowledge Retrieval from Pretrained Language Models](https://aclanthology.org/2020.emnlp-main.479.pdf)
 	- Sentence: 
+		[GPT-3](#language-models-are-few-shot-learners-gpt-3)
+		[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
 - Human Effort
 	- Hand-crated: 
+		PET-TC
+		PET-GLUE
 	- Automated
 		- Discrete: 
+			#### [Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295.pdf)
+			![LM-BFF](img/PL12.png)
+			
+			[AutoPrompt](#autoprompt-eliciting-knowledge-from-language-models-with-automatically-generated-prompts)
+			
 		- Continuous: 
-			[WARP]()
+
+			[WARP](#warp-word-level-adversarial-reprogramming)
 ### Multi-Prompt Learning (Detailed Description)
 
 - Prompt Ensemble: 
