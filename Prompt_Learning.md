@@ -7,9 +7,9 @@
 
 - Left-to-right Language Model
 	
-	[GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
-	[GPT2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-	[GPT3](https://arxiv.org/pdf/2005.14165.pdf)
+	#### [Improving Language Understanding by Generative Pre-Training (GPT)](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+	#### [Language Models are Unsupervised Multitask Learners (GPT-2)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+	#### [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/pdf/2005.14165.pdf)
 	
 - Masked Language Model
 
@@ -44,7 +44,9 @@
 	
 - Human Effort
 	- Hand-crated
-		[LAMA]()
+		
+		[LAMA](#language-models-as-knowledge-bases)
+		[GPT-3]()
 	- Automated
 		- Discrete: 
 		- Continuous: 
