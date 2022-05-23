@@ -23,10 +23,9 @@
 	
 - Encoder-Decoder
 	#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](http://arxiv.org/pdf/1910.10683.pdf)
-![T5](img/PL3.png)
+	![T5](img/PL3.png)
 
-123
-![1](img/PL1.png)
+![](img/PL1.png)
 
 ### Prompt Engineering (Detailed Description)
 
