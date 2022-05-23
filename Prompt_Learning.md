@@ -26,7 +26,7 @@
 ![T5](img/PL3.png)
 
 
-![](img/PL1.png)
+![1](img/PL1.png)
 
 ### Prompt Engineering (Detailed Description)
 
