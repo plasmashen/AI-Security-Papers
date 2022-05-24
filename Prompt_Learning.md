@@ -70,15 +70,22 @@
 
 	- Span: 
 		#### [It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://aclanthology.org/2021.naacl-main.185.pdf)
+		PET-GLUE: PET with Multiple Masks
 		
 		#### [X-FACTR: Multilingual Factual Knowledge Retrieval from Pretrained Language Models](https://aclanthology.org/2020.emnlp-main.479.pdf)
+		<img src="img/PL14.png" width=50% height=50%>
+		
 	- Sentence: 
+		
 		[GPT-3](#language-models-are-few-shot-learners-gpt-3)
+		
 		[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
 - Human Effort
 	- Hand-crated: 
-		PET-TC
-		PET-GLUE
+		#### [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference](https://aclanthology.org/2021.eacl-main.20.pdf)
+		<img src="img/PL13.png" width=50% height=50%>
+		
+		[PET-GLUE](#its-not-just-size-that-matters-small-language-models-are-also-few-shot-learners)
 	- Automated
 		- Discrete: 
 			#### [Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295.pdf)
