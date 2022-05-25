@@ -7,11 +7,11 @@
 
 - Left-to-right Language Model
 	
-	[GPT](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+	[GPT](#improving-language-understanding-by-generative-pre-training)
 	
-	[GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+	[GPT-2](#language-models-are-unsupervised-multitask-learners)
 	
-	[GPT-3](https://arxiv.org/pdf/2005.14165.pdf)
+	[GPT-3](#language-models-are-few-shot-learners)
 	
 - Masked Language Model
 
@@ -183,6 +183,14 @@
 
 #### [KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction](https://arxiv.org/pdf/2104.07650)
 
+#### [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
+![BERT](img/PL4.png)
+
+#### [UNILMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training](https://arxiv.org/pdf/2002.12804.pdf)
+![UniLM2](img/PL2.png)
+
+#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](http://arxiv.org/pdf/1910.10683.pdf)
+![T5](img/PL3.png)
 
 #### [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
