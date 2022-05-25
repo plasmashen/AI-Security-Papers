@@ -45,12 +45,14 @@
 	- Hand-crated
 		
 		[LAMA](#language-models-as-knowledge-bases)
+		
 		[GPT-3](#language-models-are-few-shot-learners-gpt-3)
 	- Automated
 		- Discrete: 
-			[AUTOPROMPT](https://aclanthology.org/2020.emnlp-main.346.pdf)
+
+			[AUTOPROMPT](#autoprompt-eliciting-knowledge-from-language-models-with-automatically-generated-prompts)
 	
-			[Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221.pdf)
+			[AdvTrigger](#universal-adversarial-triggers-for-attacking-and-analyzing-nlp)
 						
 		- Continuous: 
 
@@ -62,16 +64,16 @@
 
 - Shape
 	- Token: 
-		#### [WARP: Word-level Adversarial ReProgramming](https://aclanthology.org/2021.acl-long.381.pdf)
-		![WARP](img/PL11.png)
+	
+		[WARP](#warp-word-level-adversarial-reprogramming)
+		
 		[LAMA](#language-models-as-knowledge-bases)
 
 	- Span: 
-		#### [It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://aclanthology.org/2021.naacl-main.185.pdf)
+		[PET-GLUE](#its-not-just-size-that-matters-small-language-models-are-also-few-shot-learners)
 		PET-GLUE: PET with Multiple Masks
 		
-		#### [X-FACTR: Multilingual Factual Knowledge Retrieval from Pretrained Language Models](https://aclanthology.org/2020.emnlp-main.479.pdf)
-		<img src="img/PL14.png" width=50% height=50%>
+		[X-FACTR](#x-factr-multilingual-factual-knowledge-retrieval-from-pretrained-language-models)
 		
 	- Sentence: 
 		
@@ -80,15 +82,17 @@
 		[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
 - Human Effort
 	- Hand-crated: 
-		#### [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference](https://aclanthology.org/2021.eacl-main.20.pdf)
+	- 
+		[PET](#exploiting-cloze-questions-for-few-shot-text-classification-and-natural-language-inference)
 		<img src="img/PL13.png" width=50% height=50%>
 		
 		[PET-GLUE](#its-not-just-size-that-matters-small-language-models-are-also-few-shot-learners)
+		
 	- Automated
 		- Discrete: 
-			#### [Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295.pdf)
-			![LM-BFF](img/PL12.png)
 			
+			[LM-BFF](#making-pre-trained-language-models-better-few-shot-learners)
+						
 			[AutoPrompt](#autoprompt-eliciting-knowledge-from-language-models-with-automatically-generated-prompts)
 			
 		- Continuous: 
@@ -199,6 +203,18 @@
 
 #### [Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221.pdf)
 <img src="img/PL10.png" width=50% height=50%>
+
+#### [It’s Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners](https://aclanthology.org/2021.naacl-main.185.pdf)
+PET-GLUE: PET with Multiple Masks
+		
+#### [X-FACTR: Multilingual Factual Knowledge Retrieval from Pretrained Language Models](https://aclanthology.org/2020.emnlp-main.479.pdf)
+<img src="img/PL14.png" width=50% height=50%>
+
+#### [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference](https://aclanthology.org/2021.eacl-main.20.pdf)
+<img src="img/PL13.png" width=50% height=50%>
+
+#### [Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295.pdf)
+![LM-BFF](img/PL12.png)
 
 #### [KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction](https://arxiv.org/pdf/2104.07650)
 
