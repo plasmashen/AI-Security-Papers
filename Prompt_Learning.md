@@ -15,18 +15,15 @@
 	
 - Masked Language Model
 
-	#### [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
-	![BERT](img/PL4.png)
-	
+	[BERT](#bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding-1)
+		
 - Prefix Language Model
 
-	#### [UNILMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training](https://arxiv.org/pdf/2002.12804.pdf)
-	![UniLM2](img/PL2.png)
+	[UNILMv2](#unilmv2-pseudo-masked-language-models-for-unified-language-model-pre-training-1)
 	
 - Encoder-Decoder
-	#### [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](http://arxiv.org/pdf/1910.10683.pdf)
-	![T5](img/PL3.png)
-
+	[T5](#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-1)
+	
 ![](img/PL1.png)
 
 ### Prompt Engineering (Detailed Description)
