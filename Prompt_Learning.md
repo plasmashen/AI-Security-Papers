@@ -22,6 +22,7 @@
 	[UNILMv2](#unilmv2-pseudo-masked-language-models-for-unified-language-model-pre-training-1)
 	
 - Encoder-Decoder
+
 	[T5](#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-1)
 	
 ![](img/PL1.png)
@@ -30,17 +31,15 @@
 
 - Shape
 	- Cloze prompt: 
+
 		[LAMA](#language-models-as-knowledge-bases)
 
-	
 	- Prefix prompt: 
-	- 
+
 		[Prefix-Tuning](https://aclanthology.org/2021.acl-long.353.pdf)
 		
 		[Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
 		
-	
-	
 - Human Effort
 	- Hand-crated
 		
@@ -70,6 +69,7 @@
 		[LAMA](#language-models-as-knowledge-bases)
 
 	- Span: 
+
 		[PET-GLUE](#its-not-just-size-that-matters-small-language-models-are-also-few-shot-learners)
 		PET-GLUE: PET with Multiple Masks
 		
@@ -82,9 +82,8 @@
 		[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
 - Human Effort
 	- Hand-crated: 
-	- 
+
 		[PET](#exploiting-cloze-questions-for-few-shot-text-classification-and-natural-language-inference)
-		<img src="img/PL13.png" width=50% height=50%>
 		
 		[PET-GLUE](#its-not-just-size-that-matters-small-language-models-are-also-few-shot-learners)
 		
