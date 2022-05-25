@@ -186,7 +186,7 @@
 
 *Method*
 - Optimize the prompt and verbalizer embedding $\Theta=\left\{\Theta^P, \Theta^V\right\}$, 
-	so that, $\Theta^∗ =\arg\max\limits_\Theta(−\log P_\Theta(y|x)) Θ$ where $P_{\Theta}(y|x)=\frac{\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}{\sum\limits_{i\in C}\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}$
+	so that, $\Theta^∗ =\arg\max\limits_\Theta(−\log P_\Theta(y|x)) \Theta$ where $P_{\Theta}(y|x)=\frac{\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}{\sum\limits_{i\in C}\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}$
 
 #### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
 <img src="img/PL5.png" width=50% height=50%>
