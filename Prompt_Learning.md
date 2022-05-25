@@ -129,8 +129,7 @@
 
 		[P-Tuning](https://arxiv.org/pdf/2103.10385.pdf)
 		
-		#### [PTR: Prompt Tuning with Rules for Text Classification](https://arxiv.org/pdf/2105.11259)
-		![PTR](img/PL16.png)
+		[PTR](https://arxiv.org/pdf/2105.11259)
 
 - Training Sample Size
 	- Zero-shot: 
@@ -177,6 +176,15 @@
 - Usinh sub-prompts for conditional function.
 - Composing sub-prompts for tasks.
 
+#### [WARP: Word-level Adversarial ReProgramming](https://aclanthology.org/2021.acl-long.381.pdf)
+![WARP](img/PL11.png)
+
+*Challenges*
+- To find optimal prompts
+
+*Method*
+- Optimize the prompt and verbalizer embedding $\Theta=\left\{\Theta^P, \Theta^V\right\}$, 
+	so that, $\Theta^∗ =\arg\max\limits_\Theta(−\log P_\Theta(y|x)) Θ$ where $P_{\Theta}(y|x)=\frac{\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}{\sum\limits_{i\in C}\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}$
 
 #### [KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction](https://arxiv.org/pdf/2104.07650)
 
