@@ -30,14 +30,15 @@
 
 - Shape
 	- Cloze prompt: 
-		#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
-		<img src="img/PL5.png" width=50% height=50%>
+		[LAMA](#language-models-as-knowledge-bases)
+
 	
 	- Prefix prompt: 
-		#### [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://aclanthology.org/2021.acl-long.353.pdf)
-		<img src="img/PL6.png" width=49% height=50%>	<img src="img/PL8.png" width=49% height=50%>
-		#### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
-		<img src="img/PL7.png" width=50% height=50%>
+	- 
+		[Prefix-Tuning](https://aclanthology.org/2021.acl-long.353.pdf)
+		
+		[Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
+		
 	
 	
 - Human Effort
@@ -47,12 +48,10 @@
 		[GPT-3](#language-models-are-few-shot-learners-gpt-3)
 	- Automated
 		- Discrete: 
-			#### [AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://aclanthology.org/2020.emnlp-main.346.pdf)
-			![AUTOPROMPT](img/PL9.png)
+			[AUTOPROMPT](https://aclanthology.org/2020.emnlp-main.346.pdf)
 	
-			#### [Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221.pdf)
-			<img src="img/PL10.png" width=50% height=50%>
-			
+			[Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221.pdf)
+						
 		- Continuous: 
 
 			[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
@@ -185,6 +184,21 @@
 *Method*
 - Optimize the prompt and verbalizer embedding $\Theta=\left\{\Theta^P, \Theta^V\right\}$, 
 	so that, $\Theta^∗ =\arg\max\limits_\Theta(−\log P_\Theta(y|x)) Θ$ where $P_{\Theta}(y|x)=\frac{\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}{\sum\limits_{i\in C}\exp\Theta^V_yf\left(T_{\Theta^P}(x)\right)}$
+
+#### [Language Models as Knowledge Bases?](https://aclanthology.org/D19-1250.pdf)
+<img src="img/PL5.png" width=50% height=50%>
+
+#### [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://aclanthology.org/2021.acl-long.353.pdf)
+<img src="img/PL6.png" width=49% height=50%>	<img src="img/PL8.png" width=49% height=50%>
+
+#### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
+<img src="img/PL7.png" width=50% height=50%>
+
+#### [AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://aclanthology.org/2020.emnlp-main.346.pdf)
+![AUTOPROMPT](img/PL9.png)
+
+#### [Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221.pdf)
+<img src="img/PL10.png" width=50% height=50%>
 
 #### [KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction](https://arxiv.org/pdf/2104.07650)
 
