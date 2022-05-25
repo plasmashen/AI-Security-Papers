@@ -129,7 +129,7 @@
 
 		[P-Tuning](https://arxiv.org/pdf/2103.10385.pdf)
 		
-		[PTR](https://arxiv.org/pdf/2105.11259)
+		[PTR](#ptr-prompt-tuning-with-rules-for-text-classification)
 
 - Training Sample Size
 	- Zero-shot: 
