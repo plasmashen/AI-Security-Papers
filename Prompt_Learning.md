@@ -319,6 +319,12 @@
 <img src="img/PL20.png" width=49% height=50%>
 
 PET-GLUE: PET with Multiple Masks
+
+*Category*
+- Model: BERT
+- Prompt: cloze, discrete
+- Answer: token/span
+- Learning: Fixed-prompt LM Tuning
 		
 *Challenges*
 - An important limitation of PET is that the verbalizer v must map each output to a single token, which is impossible for many tasks.
@@ -331,6 +337,18 @@ PET-GLUE: PET with Multiple Masks
 
 #### [Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference](https://aclanthology.org/2021.eacl-main.20.pdf)
 <img src="img/PL13.png" width=50% height=50%>
+
+*Category*
+- Model: BERT
+- Prompt: prefix
+- Answer: token
+- Learning: Fixed-prompt LM Tuning
+
+*Challenges*
+- An important limitation of PET is that the verbalizer v must map each output to a single token, which is impossible for many tasks.
+
+*Method*
+- use multiple tokens at generating output instead of single token.
 
 #### [Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295.pdf)
 ![LM-BFF](img/PL12.png)
