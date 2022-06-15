@@ -36,9 +36,9 @@
 
 	- Prefix prompt: 
 
-		[Prefix-Tuning](https://aclanthology.org/2021.acl-long.353.pdf)
-		
-		[Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
+		[Prefix-Tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
+			
+		[Prompt Tuning](#the-power-of-scale-for-parameter-efficient-prompt-tuning)
 		
 - Human Effort
 	- Hand-crated
@@ -187,6 +187,9 @@
 - P-tuning v2 employs the idea of deep prompt tuning as [Prefix-tuning](#prefix-tuning-optimizing-continuous-prompts-for-generation)
 - Reparameterization performs differently in different datasets.
 - Randomly-initialized classification head to predict label.
+
+*Comment*
+- Identical to prefix tuning.
 
 #### [PTR: Prompt Tuning with Rules for Text Classification](https://arxiv.org/pdf/2105.11259.pdf)
 [code](https://github.com/thunlp/PTR)

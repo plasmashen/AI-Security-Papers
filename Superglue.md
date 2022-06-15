@@ -1,4 +1,42 @@
-# SuperGLUE
+## GLUE
+
+### Tasks
+
+|Name|Metric|
+|-|-|
+|The Corpus of Linguistic Acceptability|Matthew's Corr|
+|The Stanford Sentiment Treebank|Accuracy|
+|Microsoft Research Paraphrase Corpus|F1 / Accuracy|
+|Semantic Textual Similarity Benchmark|Pearson-Spearman Corr|
+|Quora Question Pairs|F1 / Accuracy|
+|MultiNLI Matched|Accuracy|
+|MultiNLI Mismatched|Accuracy|
+|Question NLI|Accuracy|
+|Recognizing Textual Entailment|Accuracy|
+|Winograd NLI|Accuracy|
+|Diagnostics Main|Matthew's Corr|
+
+
+### The Corpus of Linguistic Acceptability (CoLA)
+The Corpus of Linguistic Acceptability (CoLA) in its full form consists of 10657 sentences from 23 linguistics publications, expertly annotated for acceptability (grammaticality) by their original authors.
+
+### The Stanford Sentiment Treebank (SST)
+
+### Microsoft Research Paraphrase Corpus
+a text file containing 5800 pairs of sentences which have been extracted from news sources on the web, along with human annotations indicating whether each pair captures a paraphrase/semantic equivalence relationship. 
+
+### Semantic Textual Similarity Benchmark
+
+
+### Quora Question Pairs
+### MultiNLI Matched
+### MultiNLI Mismatched
+### Question NLI
+### Recognizing Textual Entailment
+### Winograd NLI
+### Diagnostics Main
+
+## SuperGLUE
 
 ### Tasks
 
@@ -29,3 +67,32 @@ The data is distributed in .tsv format with the following columns:
 5. Premise
 6. Hypothesis
 7. Label (entailment, contradiction, or neutral)
+
+
+### CommitmentBank (CB)
+The CommitmentBank is a corpus of 1,200 naturally occurring discourses whose final sentence contains a clause-embedding predicate under an entailment canceling operator.
+("premise", "hypothesis")
+
+### Choice of Plausible Alternatives (COPA)
+Each question is composed of a premise and two alternatives, where the task is to select the alternative that more plausibly has a causal relation with the premise.
+ 
+*Examples*
+
+Premise: The man broke his toe. What was the CAUSE of this?
+Alternative 1: He got a hole in his sock. 
+Alternative 2: He dropped a hammer on his foot.
+
+### Multi-Sentence Reading Comprehension
+
+### Recognizing Textual Entailment
+
+### Words in Context
+
+### The Winograd Schema Challenge
+
+### BoolQ
+
+### Reading Comprehension with Commonsense Reasoning
+
+### Winogender Schema Diagnostics
+
