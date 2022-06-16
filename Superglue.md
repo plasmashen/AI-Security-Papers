@@ -84,15 +84,52 @@ Alternative 2: He dropped a hammer on his foot.
 
 ### Multi-Sentence Reading Comprehension
 
+MultiRC (Multi-Sentence Reading Comprehension) is a dataset of short paragraphs and multi-sentence questions, i.e., questions that can be answered by combining information from multiple sentences of the paragraph. The dataset was designed with three key challenges in mind: * The number of correct answer-options for each question is not pre-specified. This removes the over-reliance on answer-options and forces them to decide on the correctness of each candidate answer independently of others. In other words, the task is not to simply identify the best answer-option, but to evaluate the correctness of each answer-option individually. * The correct answer(s) is not required to be a span in the text. * The paragraphs in the dataset have diverse provenance by being extracted from 7 different domains such as news, fiction, historical text etc., and hence are expected to be more diverse in their contents as compared to single-domain datasets. The entire corpus consists of around 10K questions (including about 6K multiple-sentence questions). 
+
 ### Recognizing Textual Entailment
+
+This task requires to recognize, given two text fragments, whether the meaning of one text is entailed (can be inferred) from the other text.
 
 ### Words in Context
 
+A system's task on the WiC dataset is to identify the intended meaning of words. WiC is framed as a binary classification task. Each instance in WiC has a target word w, either a verb or a noun, for which two contexts are provided. Each of these contexts triggers a specific meaning of w. The task is to identify if the occurrences of w in the two contexts correspond to the same meaning or not. In fact, the dataset can also be viewed as an application of Word Sense Disambiguation in practice.
+
+|Label	|Target	|Context-1	|Context-2|
+|:-:|:-:|-|-|
+|F	|bed	|There's a lot of trash on the bed of the river	|I keep a glass of water next to my bed when I sleep|
+|T	|beat	|We beat the competition	|Agassi beat Becker in the tennis championship|
 ### The Winograd Schema Challenge
 
+A Winograd schema is a pair of sentences that differ in only one or two words and that contain an ambiguity that is resolved in opposite ways in the two sentences and requires the use of world knowledge and reasoning for its resolution. 
+
+    {“text": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs.", "target": {"span2_index": 17, "span1_index": 13, "span1_text": "lemon trees", "span2_text": "they"}, "idx": 2, "label": false}
 ### BoolQ
+
+BoolQ is a question answering dataset for yes/no questions containing 15942 examples. These questions are naturally occurring ---they are generated in unprompted and unconstrained settings.
+
+Each example is a triplet of (question, passage, answer), with the title of the page as optional additional context. The text-pair classification setup is similar to existing natural language inference tasks.
+
+    {
+    "question": "is france the same timezone as the uk",
+    "passage": "At the Liberation of France in the summer of 1944, Metropolitan France kept GMT+2 as it was the time then used by the Allies (British Double Summer Time). In the winter of 1944--1945, Metropolitan France switched to GMT+1, same as in the United Kingdom, and switched again to GMT+2 in April 1945 like its British ally. In September 1945, Metropolitan France returned to GMT+1 (pre-war summer time), which the British had already done in July 1945. Metropolitan France was officially scheduled to return to GMT+0 on November 18, 1945 (the British returned to GMT+0 in on October 7, 1945), but the French government canceled the decision on November 5, 1945, and GMT+1 has since then remained the official time of Metropolitan France.",
+    "answer": false,
+    "title": "Time in France",
+    }
 
 ### Reading Comprehension with Commonsense Reasoning
 
+Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD) is a large-scale reading comprehension dataset which requires commonsense reasoning. ReCoRD consists of queries automatically generated from CNN/Daily Mail news articles; the answer to each query is a text span from a summarizing passage of the corresponding news. The goal of ReCoRD is to evaluate a machine's ability of commonsense reasoning in reading comprehension. ReCoRD is pronounced as [ˈrɛkərd].
+
+
 ### Winogender Schema Diagnostics
 
+Winogender Schemas (inspired by Winograd Schemas) are minimal pairs of sentences that differ only by the gender of one pronoun in the sentence, designed to test for the presence of gender bias in automated coreference resolution systems.
+
+1. The nurse notified the patient that...
+	- her shift would be ending in an hour.
+	- his shift would be ending in an hour.
+	- their shift would be ending in an hour.
+2. The nurse notified the patient that...
+	- her blood would be drawn in an hour.
+	- his blood would be drawn in an hour.
+	- their blood would be drawn in an hour.
