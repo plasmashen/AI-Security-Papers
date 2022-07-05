@@ -6,3 +6,9 @@
 - Robustness to label corruption
 - Robustness to class imbalance
 - Robustness to adversarial perturbation
+
+### [Measure and Improve Robustness in NLP Models: A Survey](https://arxiv.org/pdf/2112.08313.pdf)
+
+- Robustness against Adversarial Attacks
+- Robustness under Distribution Shift
+- 
