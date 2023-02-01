@@ -372,3 +372,26 @@ PET-GLUE: PET with Multiple Masks
 #### [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
 #### [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+
+#### [Adversarial Soft Prompt Tuning for Cross-Domain Sentiment Analysis](https://aclanthology.org/2022.acl-long.174.pdf)
+![AdSPT](img/PL21.png)
+*Cat.*
+- Soft prompt
+- Prompt+LM tuning
+
+*Challenges*
+- The distributions of MLM prediction results can be different for different domains.
+- It is unreasonable to predict predefined label words with fixed templates (a.k.a. hard prompts) for different domain datasets.
+
+*Method*
+- Loss 1: Making [MASK] token representation discriminate domains by domain classifier;
+- Loss 2: Making [MASK] token representation generalize to different domains by the NLP model itself.
+
+#### [An Information-theoretic Approach to Prompt Engineering Without Ground Truth Labels](https://aclanthology.org/2022.acl-long.60.pdf)
+![MI](img/PL22.png)
+
+*Challenges*
+- Searching for the best prompt template without GT labels.
+
+*Method*
+- Mutual Information (MI) method is proposed to evaluate the templates and possible targets.

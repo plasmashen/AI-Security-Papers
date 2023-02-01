@@ -185,8 +185,31 @@ Similar to Neural Cleanse
 - Objectness Explainer uses the predicted bounding boxes to explain/match the predicted objectness and determines the final output.
 
 *Comments*
+
 differ from [PatchGuard](#patchguard-a-provably-robust-defense-against-adversarial-patches-via-small-receptive-fields-and-masking) where PatchGuard return a prediction logits.
 
+#### PatchCleanser: Certifiably Robust Defense against Adversarial Patches for Any Image Classifier
+
+![](img/img11.png)
+
+*Challenges*
+- The dependence on specific model architectures;
+- Abstention from predictions.
+
+*Method*
+ Double masking
+ -Adaptive mask set generation
+ - First-round masking: detecting a prediction disagreement.
+ - Second-round masking: settling the prediction disagreement
+ - Finally, all disagreers do not return, return the one-mask majority.
+
+*Comments*
+- Limited scenario and still exist possible adaptive attack;
+- high computational cost where 6*6 mask require at least 72 for two-mask setting.
+
+#### A Prompting-based Approach for Adversarial Example Generation and Robustness Enhancement
+
+![](img/img12.png)
 
 ## THEORY
 ### NLP
@@ -198,6 +221,7 @@ differ from [PatchGuard](#patchguard-a-provably-robust-defense-against-adversari
 
 ### [Prompt learning](Prompt_Learning.md)
 
+### 
 
 ## INTERPRETABILITY
 ## ROBUSTNESS
